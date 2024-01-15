@@ -1,0 +1,13 @@
+Piet
+hack the box chal (phone)
+
+NITW website chal
+
+morse code
+Type juggling
+Physical flag
+web challange where info is in previous github commits
+Js toggle in web
+Secret path in url
+sql injection
+css comment out
