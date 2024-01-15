@@ -12,6 +12,6 @@ def format(input_string):
     return formatted_string
 
 
-input_text = "Just press two monkeys 3a3er"            # Put your sentence here
+input_text = "Piet is a very unique language i3s8e"            # Put your sentence here
 result = format(input_text)
 print(result)
