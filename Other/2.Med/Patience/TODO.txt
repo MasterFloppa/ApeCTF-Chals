@@ -1,1 +1,0 @@
-fix the system("/bin/sh"); so it doesnt close imidietly

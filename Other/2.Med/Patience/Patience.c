@@ -6,9 +6,13 @@
 #include <sys/wait.h>
 
 #define MAX_INPUT_LENGTH 1000
-
-// Variable to store input
 char input[MAX_INPUT_LENGTH];
+
+void gib()
+{
+    // give shell
+    system("/bin/sh");
+}
 
 void *waitForInput(void *arg)
 {
@@ -37,14 +41,17 @@ int main()
     if (threadResult != 0)
         return 1;
 
-    sleep(20);
+    sleep(22);
     if (strlen(input) > 0)
         return 0;
     else
     {
-        printf("\nShell\n");
-        // system("/bin/sh");
+        pthread_cancel(inputThread);
+        printf("\n");
+        gib();
     }
+
+    pthread_join(inputThread, NULL);
 
     return 0;
 }
