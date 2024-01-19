@@ -3,7 +3,7 @@
 ### Overview
 ```
 
-Score : 200 points
+Score : 300 points
 Author : FateGraphite
 
 ```

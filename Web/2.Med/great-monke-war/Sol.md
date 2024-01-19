@@ -1,4 +1,13 @@
-## Question : 
+# Great Monkey War #
+ 
+## Overview ##
+ 
+300 points
+ 
+Author: Master_Oogway
+
+## Description ##
+
 The great monkey war began in 2010 and lasted till 2017.
 Can you time travel and stop it?
 
@@ -19,5 +28,5 @@ Can use any of these :
 - postman
 - burpsuite
 
-## Final Answer
+## Answer Flag ##
 - ApeCTF{w4r_i5_0v3r}

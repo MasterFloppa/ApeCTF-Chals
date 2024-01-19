@@ -1,5 +1,4 @@
 snyk chal (phone)
-Physical
 
 Seervi:
 	Type juggling
@@ -10,11 +9,14 @@ Abhi:
 	Secret path in url
 
 Physical flag
-AWT
 sql injection
 monkey video flag (on website)
 
 
 rand time sync
-NITW website chal
 vbs
+
+-----------------------
+Loli's question
+Website reset
+Banana
