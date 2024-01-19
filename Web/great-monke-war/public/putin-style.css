@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas{
+  display: block;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(./communist.jpg);
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  height: 40vh;
+  width: auto;
+}
