@@ -1,22 +1,17 @@
 snyk chal (phone)
 
-Seervi:
-	Type juggling
-	Js toggle in web
 
-Abhi:
-	web challange where info is in previous github commits	
-	Secret path in url
+Type juggling
+Js toggle in web
+web challange where info is in previous github commits	
+
 
 Physical flag
 sql injection
-monkey video flag (on website)
-
+vbs
 
 rand time sync
-vbs
+
 
 -----------------------
 Loli's question
-Website reset
-Banana

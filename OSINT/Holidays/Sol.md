@@ -14,7 +14,7 @@ Flag Format: Wrap the name (in all capital letters!) of the zoo with 'ApeCTF{}' 
 Eg: Central Park Zoo = ApeCTF{CENTRAL_PARK_ZOO}
 
 ## Solution ##
-
+Looking up 'Wild Ropes Zoo' or 'Wild Ropes' online (Google & DuckDuckGo) will yeild 'Taronga Zoo Sydney' in Australia
 
 ## Answer Flag ##
 ApeCTF{TARONGA_SYDNEY}

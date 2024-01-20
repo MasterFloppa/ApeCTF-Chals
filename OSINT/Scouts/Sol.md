@@ -4,7 +4,7 @@
  
 150 points
  
-Author: Seal
+Author: Sealldev
  
 ## Description ##
  
@@ -14,7 +14,9 @@ Flag Format: Wrap the primary name (in all capital letters!) of the zoo with 'Ap
 Eg: Wonga Park Scout Hall = ApeCTF{WONGA_PARK}
 
 ## Solution ##
+Hint leads towards 'sea scouts'
 
+Just above Taronga Zoo is a scout hall '1st Clifton Gardens Sea Scouts'. Can find using Google Maps searching 'Scout Halls near Taronga Zoo Sydney'
 
 ## Answer Flag ##
 ApeCTF{CLIFTON_GARDENS}

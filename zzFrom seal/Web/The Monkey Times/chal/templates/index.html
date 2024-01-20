@@ -1,0 +1,41 @@
+
+<html>
+    <head>
+        <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
+    </head>
+   <body>            
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <h1>The Monkey Times</h1>
+            <h5>The upcoming news site</h5>
+            <form action="/">
+              <div class="form-group">
+                  <label for="id">Article to read</label><br>
+                  <select name="id" id="id" class="form-control">
+                      <option value="1">Welcome!</option>
+                      <option value="2">What is a monkey?</option>
+                      <option value="3">Flag</option>
+                  </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+              <br>
+              {% if posts %}
+              {% for post in posts %}
+              <h3>{{post['title']}}</h3>
+              <p>{{post['content']}}</p>
+              {% endfor %}
+              {% endif %}
+              {% if error %}
+              <p>{{error}}</p>
+              {% endif %}
+            <br>
+            <h6>Challenge by sealldeveloper</h6>
+          </div>
+        </div>
+      </div>    
+   </body>
+</html>

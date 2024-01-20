@@ -1,0 +1,1 @@
+ApeCTF{FAKE_FLAG}
